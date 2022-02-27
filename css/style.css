@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Roboto+Serif:wght@400;700&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	background: rgb(254, 251, 243);
+	font-family: 'Noto Serif Display', serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+} 
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+a {
+	text-decoration: none;
+	color:rgb(217, 198, 165);
+}
+a:hover {
+	color: rgb(214, 229, 250);
+}
+
+.btn-gold {
+	background-color: rgb(217, 198, 165);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.btn-gold: hover {
+	background-color: rgb(214, 229, 250);
+	color: white;
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 32px;
+}
+
+
+
+
